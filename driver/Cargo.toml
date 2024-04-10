@@ -21,7 +21,7 @@ crate-type = ["cdylib", "rlib"]
 python = ["pyo3"]
 
 [dependencies]
-libusb1-sys = {version = "0.3" }
+libusb1-sys = {version = "0.6" }
 libc = "0.2.71"
 crossbeam-channel = "0.4"
 serde = { version = "1.0", features = ["derive"]}
